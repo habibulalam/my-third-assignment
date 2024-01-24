@@ -30,8 +30,9 @@
         <!-- nav section -->
         <nav></nav>
         <!-- Banner section -->
-        <div class="mb-[100px] mx-5">
-            <div class="carousel ">
+        <div class="mb-[100px] mx-5 lg:relative">
+            
+            <div class="carousel z-0">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./images/new1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -46,6 +47,10 @@
                         <a href="#slide1" class="btn btn-circle bg-black border-none text-white">❯</a>
                     </div>
                 </div>
+            </div>
+            <div class="lg:absolute z-10 right-8 bottom-8 bg-[#131318] rounded-2xl p-8 lg:max-w-[566px] ">
+                <h1 class="text-white text-2xl font-extrabold mb-4">Meet all the heroes from the field</h1>
+                <p class="text-[#FFFFFF99] text-[1rem] font-medium"> Discover the inspiring stories and achievements of our hockey club's extraordinary players, showcasing the true essence of on-ice heroism and camaraderie.</p>
             </div>
         </div>
     </header>
@@ -478,7 +483,7 @@
                 </div>
     
     
-                <div>
+                <div class="mb-10">
                     <h1 class="text-white text-lg font-bold">Services</h1>
                     <br>
                     <ul class="text-[#FFFFFF99] flex flex-col gap-5">
